@@ -36,10 +36,9 @@
 }
 
 .card-container {
-    display: flex; 
-    justify-content: flex-start; 
-    gap: 10px; 
-    padding-left: 40px;
+    display: flex; /* Usar flexbox para alinear las tarjetas en línea */
+    overflow-x: auto; /* Habilitar desplazamiento horizontal */
+    padding: 10px; /* Espaciado alrededor de las tarjetas */
 }
 
 .card {
@@ -51,6 +50,8 @@
     text-align: center; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease;
+    margin-right: 10px;
+    flex-shrink: 0;
 }
 
 .card:hover {
