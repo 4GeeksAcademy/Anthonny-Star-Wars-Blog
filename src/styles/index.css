@@ -1,3 +1,56 @@
-/* 
-    General Styles
-*/
+.custom-navbar {
+    background-color: black;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custom-navbar .navbar-logo {
+    height: 75px;
+}
+
+.dropdown .btn-warning {
+    background-color: gold; 
+    color: black; 
+    border: none;
+    font-weight: bold;
+}
+
+.dropdown .btn-warning:hover {
+    background-color: yellow; 
+}
+
+.dropdown-menu {
+    background-color: gold; 
+    color: black; 
+}
+
+.favorite-count {
+    font-weight: bold;
+}
+
+.dropdown-menu .dropdown-item {
+    color: black;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: lightyellow; 
+}
+
+.footer {
+    background-color: black;
+    color: white; 
+}
+
+.footer a {
+    color: gold; 
+}
+
+.footer a:hover {
+    color: yellow;
+}
+
+.footer .fa-heart {
+    color: red;
+}
